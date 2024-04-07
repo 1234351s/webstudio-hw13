@@ -1,0 +1,87 @@
+:root {
+  --brand-color: rgb(255, 255, 255);
+  --black-color: rgb(47, 48, 58);
+  --grey-color: rgb(245, 244, 250);
+  --blue-color: rgb(33, 150, 243);
+  --gray1-color: rgba(255, 255, 255, 0.6);
+  --grey_black-color: rgb(117, 117, 117);
+}
+body {
+  font-family: "Roboto" serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(19 / 14);
+}
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 2px solid rgb(0, 0, 0);
+}
+.developments {
+  margin-bottom: 94px;
+}
+.hero {
+  margin-bottom: 94px;
+  text-align: center;
+  background-color: var(--black-color);
+  left:auto;
+  right: auto;
+}
+.advantages {
+  margin-bottom: 118px;
+}
+.hero-button {
+  background-color: var(--blue-color);
+  text-align: center;
+  margin: 0 auto;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header, nav, main, aside, footer {
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+}
+
+nav {
+    background-color: #f0f0f0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.developments {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
