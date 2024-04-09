@@ -38,9 +38,9 @@ body {
 }
 .team {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 .developments {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
