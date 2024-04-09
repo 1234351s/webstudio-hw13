@@ -38,11 +38,11 @@ body {
 }
 .team {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .developments {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .developments {
   text-align: center;
