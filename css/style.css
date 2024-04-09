@@ -44,3 +44,6 @@ body {
   display: flex;
   flex-direction: column;
 }
+.developments {
+  text-align: center;
+}
