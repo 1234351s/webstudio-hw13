@@ -36,20 +36,6 @@ body {
   text-align: center;
   margin: 0 auto;
 }
-.team {
-  display: flex;
-  flex-direction: row;
-}
-.developments {
-  display: flex;
-  flex-direction: row;
-}
-.developments {
-  text-align: center;
-}
-.menu {
-  display: flex;
-}
-.header {
+.header-nav-list {
   display: flex;
 }
