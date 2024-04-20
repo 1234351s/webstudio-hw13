@@ -39,3 +39,24 @@ body {
 .header-nav-list {
   display: flex;
 }
+.advantages {
+  display: flex;
+}
+.advantages-text {
+  display: flex;
+}
+.advantages-title {
+  display: flex;
+}
+.developments {
+  display: flex;
+}
+.team {
+  display: flex;
+}
+.team-title {
+  display: flex;
+}
+.developments-title {
+  display: flex;
+}
