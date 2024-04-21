@@ -35,6 +35,8 @@ body {
   background-color: var(--blue-color);
   text-align: center;
   margin: 0 auto;
+  font-weight: 700;
+  font-size: 16px;
 }
 .advantages-list {
   display: flex;
@@ -50,6 +52,8 @@ body {
 }
 .hero-title {
   color: var(--brand-color);
+  font-weight: 900;
+  font-size: 44px;
 }
 .developments-list {
   display: flex;
@@ -59,6 +63,8 @@ body {
 }
 .developments-title:nth-child(-n + 5) {
   margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
 }
 .developments-title {
   text-align: center;
@@ -71,6 +77,8 @@ body {
 }
 .team-title:nth-child(-n + 5) {
   margin-bottom: 11px;
+  font-weight: 700;
+  font-size: 36px;
 }
 .team-title {
   text-align: center;
@@ -80,6 +88,7 @@ body {
 }
 .header-nav-item {
   margin-right: 48px;
+
   text-align: center;
 }
 .header-contact-list {
@@ -87,6 +96,8 @@ body {
 }
 .header-contact-link {
   margin-right: 48px;
+  font-weight: 400;
+  font-size: 14px;
 }
 .header-nav-list {
   display: flex;
@@ -96,7 +107,54 @@ body {
 }
 .header-logo {
   margin-right: 40px;
+  font-weight: 700;
+  font-size: 26px;
 }
 .advantages-text {
   font-size: 14px;
+  font-weight: 400;
+}
+.blue {
+  color: var(--blue-color);
+}
+.black {
+  color: var(--black-color);
+}
+.blue1 {
+  color: var(--blue-color);
+}
+.black1 {
+  color: var(--black-color);
+}
+.black2 {
+  color: var(--black-color);
+}
+.black3 {
+  color: var(--grey_black-color);
+}
+.blue2 {
+  color: var(--blue-color);
+}
+footer-contact {
+  display: flex;
+}
+.white {
+  color: var(--brand-color);
+}
+.footer {
+  background-color: var(--black-color);
+}
+.footer-text {
+  color: var(--grey_black-color);
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer-link {
+  color: var(--grey_black-color);
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer-studio {
+  font-weight: 700;
+  font-size: 26px;
 }
