@@ -42,6 +42,7 @@ body {
   color: var(--brand-color);
   width: 216px;
   height: 50px;
+  cursor: pointer;
 }
 
 .advantages-list {
@@ -172,12 +173,8 @@ body {
   height: 50;
   margin-top: 200px;
 }
-.hero-title {
+.hero {
   font-weight: 696;
   height: 120;
   margin-top: 170px;
-}
-.hero {
-  width: 1230;
-  size: 150px;
 }
