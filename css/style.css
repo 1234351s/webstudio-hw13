@@ -27,6 +27,8 @@ body {
   background-color: var(--black-color);
   left: auto;
   right: auto;
+  width: 1600px;
+  height: 600px;
 }
 .advantages {
   margin-bottom: 118px;
@@ -37,7 +39,11 @@ body {
   margin: 0 auto;
   font-weight: 700;
   font-size: 16px;
+  color: var(--brand-color);
+  width: 216px;
+  height: 50px;
 }
+
 .advantages-list {
   display: flex;
 }
@@ -86,9 +92,12 @@ body {
 .header-flex {
   display: flex;
 }
+.header {
+  width: 1600px;
+  height: 80px;
+}
 .header-nav-item {
   margin-right: 48px;
-
   text-align: center;
 }
 .header-contact-list {
@@ -135,7 +144,7 @@ body {
 .blue2 {
   color: var(--blue-color);
 }
-footer-contact {
+.footer-contact {
   display: flex;
 }
 .white {
@@ -157,4 +166,18 @@ footer-contact {
 .footer-studio {
   font-weight: 700;
   font-size: 26px;
+}
+.hero-button {
+  font-weight: 216;
+  height: 50;
+  margin-top: 200px;
+}
+.hero-title {
+  font-weight: 696;
+  height: 120;
+  margin-top: 170px;
+}
+.hero {
+  width: 1230;
+  size: 150px;
 }
