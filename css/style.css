@@ -22,13 +22,11 @@ body {
   margin-bottom: 94px;
 }
 .hero {
-  margin-bottom: 94px;
   text-align: center;
   background-color: var(--black-color);
-  left: auto;
-  right: auto;
   width: 1600px;
   height: 600px;
+  margin: 0 auto;
 }
 .hero-button {
   width: 216px;
@@ -56,6 +54,7 @@ body {
 }
 .developments-list {
   display: flex;
+
 }
 .developments-item:not(:last-child) {
   margin-right: 30px;
