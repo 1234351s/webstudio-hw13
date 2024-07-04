@@ -16,7 +16,8 @@ body {
   width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 2px solid rgb(0, 0, 0);
+  outline: 2px solid rgb(0, 255, 76);
+  height: 100%;
 }
 .developments {
   margin-bottom: 94px;
@@ -24,7 +25,6 @@ body {
 .hero {
   text-align: center;
   background-color: var(--black-color);
-  width: 1600px;
   height: 600px;
   margin: 0 auto;
 }
@@ -54,7 +54,6 @@ body {
 }
 .developments-list {
   display: flex;
-
 }
 .developments-item:not(:last-child) {
   margin-right: 30px;
@@ -87,8 +86,8 @@ body {
   align-items: center;
 }
 .header {
-  width: 1600px;
   height: 80px;
+  margin: 0 auto;
 }
 .header-nav-item {
   margin-right: 48px;
@@ -144,8 +143,6 @@ body {
   color: var(--brand-color);
 }
 .footer {
-  width: 1600px;
-  height: 252px;
   background-color: var(--black-color);
   margin: 0 auto;
 }
@@ -157,8 +154,8 @@ body {
 
 .footer-email,
 .footer-number {
-  color: var(--grey-color);
   line-height: inherit;
+    color: white;
 }
 .footer-web {
   color: var(--blue-color);
@@ -190,24 +187,45 @@ body {
 .advatages-flex {
   display: flex;
   align-items: center;
-}
-.advatages-title {
-  display: flex;
   justify-content: center;
-  line-height: 16.41px;
 }
-.advatages-item {
-  color: var(--grey-color);
-  font-weight: 400;
-  line-height: inherit;
+.advatages-text {
+  width: 270px;
+}
+.advatages-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .advatages-list-item:not(:last-child) {
   margin-right: 30px;
 }
-
-.advatages-text {
-  width: 270px;
-}
 .advatages {
-  margin-bottom: 118px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.developments-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.developments-item:not(:last-child) {
+  margin-right: 30px;
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.team-title {
+  margin-bottom: 50px;
+}
+.flex-team {
+  height: 648px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
