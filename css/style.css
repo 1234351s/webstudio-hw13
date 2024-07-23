@@ -260,3 +260,6 @@ body {
 .team {
   text-align: center;
 }
+.flex-team {
+  flex-direction: column;
+}
