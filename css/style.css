@@ -7,7 +7,7 @@
   --grey_black-color: rgb(117, 117, 117);
 }
 body {
-  font-family: "Roboto" "serif";
+  font-family: "Roboto", "serif";
   font-weight: 400;
   font-size: 14px;
   line-height: calc(19 / 14);
@@ -111,7 +111,7 @@ body {
   display: flex;
 }
 .header-logo {
-  margin-right: 40px;
+  margin-right: 91px;
   font-weight: 700;
   font-size: 26px;
 }
@@ -121,20 +121,8 @@ body {
 .black {
   color: var(--black-color);
 }
-.blue1 {
-  color: var(--blue-color);
-}
-.black1 {
-  color: var(--black-color);
-}
-.black2 {
-  color: var(--black-color);
-}
-.black3 {
-  color: var(--grey_black-color);
-}
-.blue2 {
-  color: var(--blue-color);
+.header-contact-link:hover {
+  background-color: var(--brand-color);
 }
 .footer-contact {
   display: flex;
@@ -177,7 +165,7 @@ body {
   font-weight: 216;
   height: 50;
 }
-.header-nav-item:not(:last-child),
+
 .header-contacts-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -224,7 +212,6 @@ body {
   margin-bottom: 50px;
 }
 .flex-team {
-  height: 648px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,6 +246,7 @@ body {
 }
 .team {
   text-align: center;
+  height: 648px;
 }
 .flex-team {
   flex-direction: column;
